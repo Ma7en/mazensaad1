@@ -1,0 +1,110 @@
+/* font-family: 'Rubik', sans-serif; */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+// @font-face {
+//     font-family: "Rubik", sans-serif;
+//     src: url("../font/Rubik/Rubik-Italic-VariableFont_wght.ttf");
+//     src: url("../font/Rubik/Rubik-VariableFont_wght.ttf");
+//     src: url("../font/Rubik/static/Rubik-Black.ttf");
+//     src: url("../font/Rubik/static/Rubik-BlackItalic.ttf");
+//     src: url("../font/Rubik/static/Rubik-Bold.ttf");
+//     src: url("../font/Rubik/static/Rubik-BoldItalic.ttf");
+//     src: url("../font/Rubik/static/Rubik-ExtraBold.ttf");
+//     src: url("../font/Rubik/static/Rubik-ExtraBoldItalic.ttf");
+//     src: url("../font/Rubik/static/Rubik-Italic.ttf");
+//     src: url("../font/Rubik/static/Rubik-Light.ttf");
+//     src: url("../font/Rubik/static/Rubik-LightItalic.ttf");
+//     src: url("../font/Rubik/static/Rubik-Medium.ttf");
+//     src: url("../font/Rubik/static/Rubik-MediumItalic.ttf");
+//     src: url("../font/Rubik/static/Rubik-Regular.ttf");
+//     src: url("../font/Rubik/static/Rubik-SemiBold.ttf");
+//     src: url("../font/Rubik/static/Rubik-SemiBoldItalic.ttf");
+// }
+
+@import "./components/reyset.scss";
+@import "./components/main.scss";
+@import "./components/header.scss";
+@import "./components/landing.scss";
+@import "./components/about.scss";
+@import "./components/services.scss";
+@import "./components/education.scss";
+@import "./components/pricing.scss";
+@import "./components/portfolio.scss";
+@import "./components/testimonial.scss";
+@import "./components/blogs.scss";
+@import "./components/contact.scss";
+@import "./components/footer.scss";
+@import "./components/customizetheme.scss";
+
+@media (max-width: 767px) {
+    /* start about */
+    .about-content .about-text,
+    .about-content .skills,
+    .services .service-item,
+    .education,
+    .experience,
+    .portfolio-item,
+    .contact-data,
+    .contact-form {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .education,
+    .blog-item,
+    .contact-data {
+        margin-bottom: var(--m-2-5);
+    }
+
+    /* start portfolio */
+    .portfolio-item,
+    .blog-item,
+    .fact-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    /* start glob */
+    :root {
+        --h1-font-size: 1.75rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: 0.938rem;
+        --small-font-size: 0.813rem;
+    }
+}
+/* ========== start media Queries =============== */
+
+/* start max 767px */
+@media (max-width: 767px) {
+}
+
+/* start min 768 */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* start max 991 */
+@media (max-width: 991px) {
+}
+
+/* start min 992 */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* start min 1200 */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* ========== end media Queries =============== */

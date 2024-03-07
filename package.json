@@ -1,0 +1,22 @@
+{
+    "name": "mazen-saad-1",
+    "version": "1.0.0",
+    "description": "Mazen Saad",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mazen Saad",
+    "license": "ISC",
+    "dependencies": {
+        "core-js": "^3.35.1",
+        "parcel": "^2.11.0",
+        "regenerator-runtime": "^0.14.1",
+        "sass": "^1.70.0"
+    },
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.12.0"
+    }
+}
