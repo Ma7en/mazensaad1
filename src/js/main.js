@@ -5,7 +5,8 @@
 
 /* =============== start header menu ================== */
 
-let navMenu = document.getElementById("nav-menu");
+// let navMenu = document.getElementById("nav-menu");
+let navMenu = document.querySelector(".header .nav-menu");
 let navToggle = document.getElementById("nav-toggle");
 let navClose = document.getElementById("nav-close");
 
