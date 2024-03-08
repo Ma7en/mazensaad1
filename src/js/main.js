@@ -5,21 +5,21 @@
 
 /* =============== start header menu ================== */
 
-let navMenuS = document.getElementById("nav-menu");
+let navMenu = document.getElementById("nav-menu");
 let navToggle = document.getElementById("nav-toggle");
 let navClose = document.getElementById("nav-close");
 
 /* show menu */
 // if (navToggle) {
 navToggle.addEventListener("click", () => {
-    navMenuS.classList.add("show-menu");
+    navMenu.classList.add("show-menu");
 });
 // }
 
 /* hidden menu */
 // if (navClose) {
 navClose.addEventListener("click", () => {
-    navMenuS.classList.remove("show-menu");
+    navMenu.classList.remove("show-menu");
 });
 // }
 
@@ -28,10 +28,10 @@ navClose.addEventListener("click", () => {
 let navLinks = document.querySelectorAll(".nav-link");
 
 function linkAction() {
-    let navMenuA = document.getElementById("nav-menu");
+    // let navMenuA = document.getElementById("nav-menu");
 
     // when we click on each nav link , we remove the show menu class
-    navMenuA.classList.remove("show-menu");
+    navMenu.classList.remove("show-menu");
 }
 
 navLinks.forEach((n) => n.addEventListener("click", linkAction));
