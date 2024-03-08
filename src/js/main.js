@@ -5,9 +5,9 @@
 
 /* =============== start header menu ================== */
 
-let navMenuS = document.getElementById("nav-menu"),
-    navToggle = document.getElementById("nav-toggle"),
-    navClose = document.getElementById("nav-close");
+let navMenuS = document.getElementById("nav-menu");
+let navToggle = document.getElementById("nav-toggle");
+let navClose = document.getElementById("nav-close");
 
 /* show menu */
 // if (navToggle) {
