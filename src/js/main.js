@@ -28,10 +28,10 @@ navClose.addEventListener("click", () => {
 let navLinks = document.querySelectorAll(".nav-link");
 
 function linkAction() {
-    let navMenu = document.getElementById("nav-menu");
+    let navMenuA = document.getElementById("nav-menu");
 
     // when we click on each nav link , we remove the show menu class
-    navMenu.classList.remove("show-menu");
+    navMenuA.classList.remove("show-menu");
 }
 
 navLinks.forEach((n) => n.addEventListener("click", linkAction));
