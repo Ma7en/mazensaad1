@@ -1,3 +1,4 @@
+"use strict";
 /*
 ==============================================================
 ==============================================================
@@ -29,7 +30,7 @@ navClose.addEventListener("click", () => {
 let navLinks = document.querySelectorAll(".nav-link");
 
 function linkAction() {
-    // let navMenuA = document.getElementById("nav-menu");
+    let navMenu = document.getElementById("nav-menu");
 
     // when we click on each nav link , we remove the show menu class
     navMenu.classList.remove("show-menu");
